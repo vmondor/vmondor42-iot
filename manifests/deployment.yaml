@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: playground
-          image: wil42/playground:v2   # <-- passer à v2 pendant la démo
+          image: wil42/playground:v1   # <-- passer à v2 pendant la démo
           ports:
             - containerPort: 8888
